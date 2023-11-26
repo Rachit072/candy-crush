@@ -1,10 +1,11 @@
 import React from 'react'
+import './Cell.css';
 
 function Cell({candy,candyId}:{candy:string,candyId:number}) {
   return (
-    <div>
+    <div className='cell'>
         {
-            <img src={candy} alt="" candy-Id={candyId} />
+          candy && <img src={candy} alt="" candy-id={candyId} />
         }
     </div>
   )

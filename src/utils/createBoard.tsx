@@ -1,10 +1,12 @@
+import candyRed from './images/red-candy.png';
+import candyBlue from './images/blue-candy.png'
+import candyOrange from './images/orange-candy.png'
+import candyPurple from './images/purple-candy.png'
+import candyYellow from './images/yellow-candy.png'
+import candyGreen from './images/green-candy.png'
+
 const candyColors: string[] = [
-    "url(https://github.com/kubowania/candy-crush/blob/master/images/blue-candy.png?raw=true)",
-    "url(https://github.com/kubowania/candy-crush/blob/master/images/green-candy.png?raw=true)",
-    "url(https://github.com/kubowania/candy-crush/blob/master/images/orange-candy.png?raw=true)",
-    "url(https://github.com/kubowania/candy-crush/blob/master/images/purple-candy.png?raw=true)",
-    "url(https://github.com/kubowania/candy-crush/blob/master/images/red-candy.png?raw=true)",
-    "url(https://github.com/kubowania/candy-crush/blob/master/images/yellow-candy.png?raw=true)"
+  candyRed,candyBlue,candyOrange,candyPurple,candyYellow,candyGreen,
   ];
   
   export const createBoard = (boardSize: number = 10) => {
