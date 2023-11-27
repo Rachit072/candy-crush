@@ -8,7 +8,7 @@ function Cell({candy,candyId}:{candy:string,candyId:number}) {
   return (
     <div className='cell'>
         {
-          candy && <img src={candy} alt="" candy-id={candyId}
+          candy && <img width={40} src={candy} alt="" candy-id={candyId}
           draggable={true}
           onDragStart={(e) => dispatch(dragStart(e.target))}
           onDrop={(e) => dispatch(dragDrop(e.target))}

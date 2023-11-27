@@ -1,7 +1,7 @@
 .candy-board{
     display: grid;
     grid-template-columns: repeat(10, 1fr);
-    width: 745px;
+    width: 40%;
     
 }
 .board-container{
@@ -9,12 +9,13 @@
     justify-content: center;
     align-items: center;
     padding: 10px;
-    gap:150px;
+    gap:50px;
 }
 .scoreBoard{
     padding: 20px;
     color: wheat;
-    font-size: xx-large;
+    width: 200px;
+    font-size: large;
     font-weight: 700;
     text-align: left;
 }
