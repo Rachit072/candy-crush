@@ -5,7 +5,7 @@ import candyPurple from './images/purple-candy.png'
 import candyYellow from './images/yellow-candy.png'
 import candyGreen from './images/green-candy.png'
 
-const candyColors: string[] = [
+export const candyColors: string[] = [
   candyRed,candyBlue,candyOrange,candyPurple,candyYellow,candyGreen,
   ];
   
